@@ -1,3 +1,4 @@
-## Built in Flask
+## Built in Flask and Bootstrap
 
-# Deploy by: python manage.py runserver
+# Run the application
+- `python manage.py runserver`

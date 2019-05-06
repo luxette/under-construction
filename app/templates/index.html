@@ -1,25 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container">
-    <img src="{{ url_for('static', filename='img/bellas.jpg') }}" alt="404" style="width:100%;">
-    <div class="bottom-left">Bottom Left</div>
-    <div class="top-left">Top Left</div>
-    <div class="top-right">Top Right</div>
-    <div class="bottom-right">Bottom Right</div>
-    <div class="centered">Centered</div>
+        <img src="{{ url_for('static', filename='img/bellas.jpg') }}" alt="404" style="width:100%;">
+
+        <div class="centered">
+            <h1 id='one'>Our website is getting a facelift but please reach out to us at concierge@luxette.co with any questions or bachelorette inquiries</h1> <br>
+            {# <img src="{{ url_for('static', filename='img/luxettelogowhite.png) }}" alt="404"> #}
+            <h2 id='two'>Follow us on Instagram @luxettebachco</h2>
+        </div>
     </div>
 
-
-    {# <img src="{{ url_for('static', filename='img/luxettelogowhite.png) }}" alt="404"> #}
-    <div class="jumbotron">
-        <h1>Our website is getting a facelift but please reach out to us at concierge@luxette.co with any questions or bachelorette inquiries</h1> <br>
-        <h1>Follow us on Instagram @luxettebachco</h1>
-    </div>
-
-
-
-    <div class="container">
-
-    </div>
 
 {% endblock %}

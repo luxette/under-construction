@@ -1,32 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display');
+
 html,
 body {
    margin:0;
    padding:0;
    height:100%;
    overflow-x: hidden;
+   background: url('../img/bellas.jpg');
+   background-size: cover;
+   background-position: center;
 }
 
-h1{
-    font-family: Hammersmith One;
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
     color: #112d30;
+    text-shadow: 0 0 10px #fff;
 }
 
-h2{
-    font-family: Playfair Display;
+.lead {
+    font-family: 'Playfair Display', serif;
     color: #67a6b2;
+    font-size: 2em;
+    text-shadow: 0 0 10px rgba(255,255,255,0.6);
 }
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.cover-container {
+    max-width: 45em;
 }

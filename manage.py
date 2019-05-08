@@ -1,6 +1,6 @@
 import os
 from flask_script import Manager, prompt_bool, Shell, Server
-# from termcolor import colored
+from termcolor import colored
 from app import app
 from app import app
 from flask import render_template, request, url_for
